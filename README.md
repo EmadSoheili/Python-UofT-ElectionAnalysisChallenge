@@ -50,7 +50,7 @@ Software: Python 3.7.6, Visual Studio 1.71.0
   * .txt file including detailed results of the analysis
   * Terminal, showing the detailed results of the analysis
 
-  ***There are pictures of Input and Outputs at the end of this report***
+  ***There are pictures of Input and Outputs at the end of this report.***
   
 ---
 
