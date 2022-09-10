@@ -42,3 +42,46 @@ Software: Python 3.7.6, Visual Studio 1.71.0
   * Name: ***Diana DeGette***
   * Votes: ***272982***
   * Percentage: ***73.8%***
+  
+---
+
+  ## Outputs
+  
+  * .txt file including detailed results of the analysis
+  * Terminal, showing the detailed results of the analysis
+  
+---
+
+## Election-Audit Summary
+
+The script can be used for any elections. However, following regulations should be taken into consideration in order to make the script work.
+  * The input data should be a .csv file, named "election_results.csv"
+  * The input data should be saved inside a directory named "Resources". The .py file should be in the upper directory.
+  * The input file should be in a tabular context, with a header row and three columns.
+  * These three columns should be in the following order, containig specific information:
+    * Voters ID (Template is not important)
+    * County
+    * Candidate
+    
+### **Can the script be used for different kind of elections?**
+Yes, it can be used for any election in case the aforementioned regulations are followed.
+However, it should be modified accordingly. There are two of examples here:
+
+  * Different scale
+    In case of using for different scale election (e.g. Provinces, Cities, Cummunities) the word "county" should be replaced all over the script with a proper one.
+  
+  * Different Input and/or Output file address
+    In this case, input and/or output address should be replaced between " " in lines 8 and/or 10.
+  
+---
+
+![](/Resources/Input_file.png)
+
+
+---
+
+![](/Resources/Terminal.png)
+
+---
+
+![](/Resources/Output_file.png)
