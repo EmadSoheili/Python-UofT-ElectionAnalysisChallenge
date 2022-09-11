@@ -2,12 +2,13 @@
 """PyPoll Homework Challenge Solution."""
 
 # Add our dependencies.
+import os
 import csv
 
 # Add a variable to load a file from a path.
-file_to_load = ("/Users/emadsoheili/DA/GitHub/Python-UofTChallenge-ElectionAnalysis/Resources/election_results.csv")
+file_to_load = os.path.join("Resources","election_results.csv")
 # Add a variable to save the file to a path.
-file_to_save = ("/Users/emadsoheili/DA/GitHub/Python-UofTChallenge-ElectionAnalysis/Analysis/election_analysis.txt")
+file_to_save = os.path.join("Analysis","election_analysis.txt")
 
 # Initialize a total vote counter.
 total_votes = 0
